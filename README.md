@@ -1,5 +1,8 @@
 # Mattbusel Rust Crates
 
+[![Star History Chart](https://api.star-history.com/svg?repos=Mattbusel/rust-crates&type=Date)](https://star-history.com/#Mattbusel/rust-crates)
+
+
 A collection of production-grade Rust libraries for AI agents, LLM infrastructure, and financial market systems. Each crate is independently usable, zero-panic, and ships with extensive test coverage.
 
 ---
