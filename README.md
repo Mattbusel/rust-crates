@@ -116,3 +116,10 @@ All crates in this collection follow the same engineering standards:
 - [Special-Relativity-in-Financial-Modeling](https://github.com/Mattbusel/Special-Relativity-in-Financial-Modeling) — C++20 implementation of special-relativistic geometry applied to OHLCV financial data
 - [tokio-prompt-orchestrator](https://github.com/Mattbusel/tokio-prompt-orchestrator) — Multi-core Tokio-native orchestration for LLM pipelines
 - [llm-cpp](https://github.com/Mattbusel/llm-cpp) — 26 single-header C++ libraries for LLM infrastructure
+
+
+---
+## Related Projects by @Mattbusel
+- [tokio-prompt-orchestrator](https://github.com/Mattbusel/tokio-prompt-orchestrator) -- Production Rust LLM orchestrator with circuit breakers and self-improving loop
+- [tokio-agent-memory](https://github.com/Mattbusel/tokio-agent-memory) -- Episodic and semantic memory layer for async Tokio agents
+- [fin-primitives](https://github.com/Mattbusel/fin-primitives) -- Rust financial primitives: OHLCV, order book, and trading data types
