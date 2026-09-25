@@ -64,3 +64,8 @@ Most of these crates follow the same habits: typed error enums (`thiserror`), Cl
 ## License
 
 The index itself is MIT licensed, see [LICENSE](LICENSE). Licensing of each crate is set in its own repository.
+
+
+## Hire the author
+
+**Need this kind of engineering on your product?** I take on a small number of client builds: LLM features, iOS apps and performance work, fixed price. [Services and pricing](https://mattbusel.github.io/) · [Email](mailto:mattbusel@gmail.com) · [LinkedIn](https://www.linkedin.com/in/matthewbusel/)
