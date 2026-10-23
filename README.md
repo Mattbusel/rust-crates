@@ -4,6 +4,12 @@ An index of Rust libraries and tools for LLM agents, LLM infrastructure and mark
 
 Every entry links to its repository. "crates.io" means the crate is published there under that name; otherwise use the git dependency shown.
 
+## Are crate download counts real?
+
+Most downloads on a new crate are release-day bots and mirrors. Check any crate's real use with the free [crates.io real downloads checker](https://tensorust.com/tools/crate-downloads/?utm_source=github&utm_medium=readme&utm_campaign=rust-crates), and read how the numbers were measured: [crates.io download count: what 3,676 downloads really were](https://tensorust.com/articles/crates-io-download-count/?utm_source=github&utm_medium=readme&utm_campaign=rust-crates).
+
+The same author also ships a game in Rust: [O'BLOCK on Steam](https://store.steampowered.com/app/5357680/?utm_source=github&utm_medium=readme&utm_campaign=rust-crates), built on [proof-engine](https://github.com/Mattbusel/proof-engine).
+
 ## Agent building blocks
 
 Small, focused libraries you can drop into any agent.
