@@ -1,18 +1,18 @@
 # Mattbusel Rust crates
 
-An index of Rust libraries and tools for LLM agents, LLM infrastructure and market data, each in its own repository. This repository holds no code; it is the catalogue.
+A list of my Rust libraries and tools for LLM agents, LLM infrastructure and market data. Each lives in its own repo. This repo has no code. It is the catalogue.
 
-Every entry links to its repository. "crates.io" means the crate is published there under that name; otherwise use the git dependency shown.
+Every entry links to its repo. "crates.io" means it is published there under that name. Otherwise use the git dependency shown.
 
 ## Are crate download counts real?
 
-Most downloads on a new crate are release-day bots and mirrors. Check any crate's real use with the free [crates.io real downloads checker](https://tensorust.com/tools/crate-downloads/?utm_source=github&utm_medium=readme&utm_campaign=rust-crates), and read how the numbers were measured: [crates.io download count: what 3,676 downloads really were](https://tensorust.com/articles/crates-io-download-count/?utm_source=github&utm_medium=readme&utm_campaign=rust-crates).
+Most downloads on a new crate are release-day bots and mirrors. Check any crate's real use with the free [crates.io real downloads checker](https://tensorust.com/tools/crate-downloads/?utm_source=github&utm_medium=readme&utm_campaign=rust-crates). How the numbers were measured: [crates.io download count: what 3,676 downloads really were](https://tensorust.com/articles/crates-io-download-count/?utm_source=github&utm_medium=readme&utm_campaign=rust-crates).
 
-The same author also ships a game in Rust: [O'BLOCK on Steam](https://store.steampowered.com/app/5357680/?utm_source=github&utm_medium=readme&utm_campaign=rust-crates), built on [proof-engine](https://github.com/Mattbusel/proof-engine).
+I also shipped a game in Rust: [O'BLOCK on Steam](https://store.steampowered.com/app/5357680/?utm_source=github&utm_medium=readme&utm_campaign=rust-crates), built on [proof-engine](https://github.com/Mattbusel/proof-engine).
 
 ## Agent building blocks
 
-Small, focused libraries you can drop into any agent.
+Small libraries you can drop into any agent.
 
 | Crate | What it does | Install |
 |---|---|---|
@@ -26,7 +26,7 @@ Small, focused libraries you can drop into any agent.
 | [llm-wasm](https://github.com/Mattbusel/llm-wasm) | The logic around an LLM call for `wasm32`: TTL cache, retry policy, guards, routing, cost ledger, templates, JSON extraction | [crates.io](https://crates.io/crates/llm-wasm) `cargo add llm-wasm` |
 | [llm_affector](https://github.com/Mattbusel/llm_affector) | LLM-as-judge checks: hallucination detection and Rust code critique with typed results (prototype) | git only |
 
-Git dependency form, for crates that are not on crates.io:
+Git dependency, for crates not on crates.io:
 
 ```toml
 mem-graph = { git = "https://github.com/Mattbusel/mem-graph" }
@@ -59,7 +59,7 @@ llm_affector = { git = "https://github.com/Mattbusel/llm_affector" }
 
 ## Shared conventions
 
-Most of these crates follow the same habits: typed error enums (`thiserror`), Clippy lints that deny `unwrap`, `expect` and `panic` in library code, and unit plus integration tests. Maturity varies; each README has a status section saying what works and what does not yet.
+Most of these crates share the same habits: typed error enums (`thiserror`), Clippy lints that deny `unwrap`, `expect` and `panic` in library code, and unit plus integration tests. Some are further along than others. Each README has a status section that says what works and what doesn't yet.
 
 ## Related, not Rust
 
@@ -69,9 +69,9 @@ Most of these crates follow the same habits: typed error enums (`thiserror`), Cl
 
 ## License
 
-The index itself is MIT licensed, see [LICENSE](LICENSE). Licensing of each crate is set in its own repository.
+This index is MIT, see [LICENSE](LICENSE). Each crate sets its own license in its repo.
 
 
 ## Hire the author
 
-**Need this kind of engineering on your product?** I take on a small number of client builds: LLM features, iOS apps and performance work, fixed price. [Services and pricing](https://mattbusel.github.io/) · [Email](mailto:mattbusel@gmail.com) · [LinkedIn](https://www.linkedin.com/in/matthewbusel/)
+**Need this on your product?** I take a few client builds: LLM features, iOS apps, performance work. Fixed price. [Services and pricing](https://mattbusel.github.io/) · [Email](mailto:mattbusel@gmail.com) · [LinkedIn](https://www.linkedin.com/in/matthewbusel/)
